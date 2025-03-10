@@ -704,7 +704,7 @@ body {
 /*===================*/
 .menu__item .menu__link::after {
   content: "";
-  background: url(../img/header/arw.svg) 0 0 no-repeat;
+  background: url(../img/arrow.svg) 0 0 no-repeat;
   flex: 0 0 16px;
   height: 8px;
   width: 16px;
