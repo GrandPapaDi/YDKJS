@@ -714,3 +714,59 @@ body {
 .menu__item:hover .menu__link::after {
   transform: rotate(180deg);
 }
+.page {
+  padding-top: 200px;
+}
+button {
+  border-radius: 3.125rem;
+  background: #3abe6f;
+  width: 2.4375rem;
+  height: 2.4375rem;
+  color: #fff;
+  justify-content: center;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #0059ff;
+  color: #111;
+}
+.circle {
+  display: inline-block;
+  border-radius: 3.125rem;
+  background: #0059ff;
+  width: 5.4375rem;
+  height: 5.4375rem;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.heart {
+  --c: red;
+  width: 200px;
+  aspect-ratio: 1;
+  background:
+   /* 1 */ radial-gradient(
+        circle at 60% 65%,
+        var(--c) 64%,
+        #0000 65%
+      )
+      top left/50% 50%,
+    /* 2 */ radial-gradient(circle at 40% 65%, var(--c) 64%, #0000 65%) top
+      right/50% 50%,
+    /* 3 */ conic-gradient(from -45deg at 50% 85.5%, var(--c) 90deg, #0000 0)
+      bottom/100% 50%;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+.black {
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  background-color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+}
